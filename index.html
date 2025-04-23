@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <style>
+            table, th, td{
+                  border: 1px solid black;
+            }
+            #age{
+                  width:40px;
+            }
+      </style>
+</head>
+<body>
+      <header>
+            <h1>HTML Form</h1>
+      </header>
+      <form>
+            <label for="name">First name <input id="name" name="Name" placeholder="First Name" /></label>
+            <label for="Surname">Last name <input id="Surname" name="Surname" placeholder="Last Name" /></label>
+            <label for="age">Age <input id="age" name="Age" type="number" placeholder="Age"></label><br>
+            <label for="email">Email <input id="email" name="Email" type="email" placeholder="Email"></label>
+            <label for="password">Password <input id="password" name="Password" type="password" placeholder="Password"></label>
+            <h2>Gender:</h2>
+            <label for="male">Male<input id="male" type="radio" name="Gender"></label>
+            <label for="female">Female<input id="female" type="radio" name="Gender"></label>
+            <label for="other">Other<input id="other" type="radio" name="Gender"></label>
+            <h2>Select your device:</h2>
+            <label for="macbook"><input id="macbook" type="checkbox" name="Device"> Macbook</label>
+            <label for="iPhone"><input id="iPhone" type="checkbox" name="Device"> iPhone</label>
+            <label for="ipad"><input id="ipad" type="checkbox" name="Device"> iPad</label><br>
+            <label for="Reference">How did you hear about us? <select name="Reference" id="Reference">
+                  <option value="Search Engine">Search Engine</option>
+            </select>
+            </label><br>
+            <label for="newsletter">Sign me up for News Letter <input id="newsletter" name="Newsletter_sign_up" type="checkbox"></label><br>
+            <input type="submit" value="Sign Up">
+      </form>
+      <h2>Table</h2>
+      <table>
+            <tr>
+                  <th>Name</th>
+                  <th>Age</th>
+                  <th>Country</th>
+            </tr>
+            <tr>
+                  <td>Harry Depp</td>
+                  <td>28</td>
+                  <td>Britain</td>
+            </tr>
+            <tr>
+                  <td>John Smith</td>
+                  <td>35</td>
+                  <td>USA</td>
+            </tr>
+            <tr>
+                  <td>Ram Krishna</td>
+                  <td>19</td>
+                  <td>Nepal</td>
+            </tr>
+      </table>
+</body>
+</html>
